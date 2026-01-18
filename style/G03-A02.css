@@ -51,4 +51,58 @@ nav{
     background: #1A0B2E;
     max-width: 1600px;
     height: 92px;
+    border-bottom: .5px solid white;
+}
+.hero{
+    max-width: 1600px;
+    height: 760px;
+    border: 1px solid #1A0B2E;
+    background-image: url(../assets/hero-bg.png);
+}
+.micro {
+    background-image: url(../assets/hero-circle.png);
+    width: 350px;
+    height: 350px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+.micro img{
+    width: 200px;
+    height: 250px;
+    margin-top: 45px;
+}
+.banner-section{
+    max-width: 550px;
+    height: 558px;
+    
+    margin: 110px 525px;
+    text-align: center;
+}
+.banner-title{
+    font-size: 3.50rem;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+.banner-descrip{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 12px;
+    color: #FFFFFF;
+}
+.btn{
+    display: flex;
+    margin-left: 95px;
+    gap: 8px;
+}.btn-1{
+    padding: 12px 20px 12px 40px;
+    border-radius: 14px;
+    border: none;
+    background: rgb(158, 88, 50);
+    color: #FFFFFF;
+}
+.btn-2{
+    padding: 12px 20px 12px 40px;
+    border-radius: 14px;
+    border: none;
+    color: #105e3a;
 }
