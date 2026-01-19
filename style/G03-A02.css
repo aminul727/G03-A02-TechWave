@@ -154,6 +154,52 @@ nav{
     font-size: 1rem;
     font-weight: 400;
 }
+.choose{
+    background: #1A0B2E;
+    max-width: 1600px;
+}
+.box{
+    background: #251142;
+    padding: 20px;
+    border-radius: 40px;
+    padding-left: 40px;
+    padding-top: 50px;
+}
+.choose-grid{
+    max-width: 1200px;
+    height: 783px;
+    gap: 15px;
+    margin-left: 170px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,250px);
+
+}
+.choose-grid h4{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.choose-grid p{
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 300;
+}
+.first{
+    grid-row: span 2;
+}
+.second{
+    grid-column: span 2;
+}
+.choose-title{
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+}
 @media screen and (max-width: 576px) {
     .burg{
         display: inline;
