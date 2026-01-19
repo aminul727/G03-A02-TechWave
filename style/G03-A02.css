@@ -55,7 +55,7 @@ nav{
     background: #1A0B2E;
     max-width: 1600px;
     height: 92px;
-    border-bottom: .5px solid white;
+    border-bottom: .5px solid rgb(68, 66, 64);
 }
 .hero{
     max-width: 1600px;
@@ -290,6 +290,51 @@ nav{
     align-items: center;
     gap: 12px;
 }
+footer{
+    max-width: 1600px;
+    height: 400px;
+    background-image: url(../assets/footer-bg.png);
+    border: 1px solid #1A0B2E;
+}
+.footer-content{
+    width: 1360px;
+    height: 172px;
+
+    margin-top: 120px;
+    margin-left: 60px;
+    text-align: center;
+}
+.footer-content h2{
+    color: #FFFFFF;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+.f-icon{
+    display: flex;
+    gap: 20px;
+    width: 544px;
+    height: 24px;
+    margin-left: 480px;
+    margin-top: 32px;
+}
+.f-icon1{
+    display: flex;
+    gap: 10px;
+}
+.copy{
+    font-size: .75rem;
+    font-weight: 200;
+    margin-top: 18px;
+    color: #FFFFFF;
+}
+.icon-title{
+    color: #FFFFFF;
+}
+.color{
+    color: rgb(160, 55, 88);
+}
+
+
 @media screen and (max-width: 576px) {
     .burg{
         display: inline;
