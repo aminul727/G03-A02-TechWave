@@ -200,6 +200,96 @@ nav{
     margin-bottom: 40px;
     text-align: center;
 }
+.feature{
+    max-width: 1600px;
+    height: 1276px;
+    background: #1A0B2E;
+    border: 1px solid #1A0B2E;
+}
+.feature h2{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 100px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.feature-card{
+    width: 1200px;
+    height: 440px;
+    display: flex;
+    margin-left: 170px;
+    margin-top: 40px;
+    gap: 15px;
+}
+.card-info{
+    width: 380px;
+    height: 440px;
+    border-radius: 15px;
+    text-align: start;
+    background: #251142;  
+}
+.card-info h4{
+    margin-left: 15px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.card-info p{
+    margin-left: 15px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.clock img{
+    margin-left: 15px;
+    margin-top: 12px;
+}
+.clock p{
+    margin-top: 12px;
+    color: #00FF88;
+}
+.clock{
+    display: flex;
+
+}
+.meet{
+    max-width: 1200px;
+    height: 280px;
+    margin-left: 170px;
+    border-radius: 40px;
+    display: flex;
+    padding-left: 40px;
+    padding-top: 40px;
+    margin-top: 40px;
+    background: #251142;
+}
+.host-detail{
+    width: 896px;
+    height: 183px;
+    text-align: left;
+    margin-top: 16px;
+    margin-left: 24px;
+}
+.host-detail h4{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.host-detail p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.icon{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 12px;
+}
 @media screen and (max-width: 576px) {
     .burg{
         display: inline;
