@@ -39,6 +39,10 @@
 .tech h3{
     margin-left: 200px;
 }
+.burg{
+    display: none;
+    
+}
 .tech h3{
     font-size: 1.5rem;
     font-weight: 700;
@@ -105,4 +109,57 @@ nav{
     border-radius: 14px;
     border: none;
     color: #105e3a;
+}
+.about{
+    max-width: 1600px;
+    height: 645px;
+    background: #1A0B2E;
+}
+.about-container h3{
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.about-container p{
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.about-container{
+    width: 1200px;
+    height: 222px;
+    padding-left: 310px;
+    padding-top: 50px;
+    text-align: center;
+}
+.container-rating{
+    width: 1200px;
+    height: 94px;
+    display: flex;
+    padding-left: 345px;
+    gap: 100px;
+    margin-top: 160px;
+}
+.container-rating h2{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #00FF88;
+    margin-bottom: 16px;
+    padding-left: 3px;
+    
+}
+.container-rating p{
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
+}
+@media screen and (max-width: 576px) {
+    .burg{
+        display: inline;
+    }
+    .nav-link{
+        display: none;
+        
+    }
 }
