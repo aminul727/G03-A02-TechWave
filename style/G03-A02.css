@@ -25,12 +25,13 @@
     text-decoration: none;
     margin-right: 32px;
     font-size: 1rem;
+    font-weight: 300;
     color: #FFFFFF;
 }
 .btn-nav{
   margin-right: 200px;
   margin-left: 314px;
-  padding: 12.5px 40px 12.5px 16px;
+  padding: 12.5px 30px 12.5px 25px;
   border-radius: 12px;
   border: none;
   background: rgb(148, 63, 38);
@@ -41,15 +42,16 @@
 }
 .burg{
     display: none;
+    margin-right: 10px;
     
 }
 .tech h3{
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 700;
     color: #FFFFFF;
 }
 .tech span{
-  color: rgb(134, 9, 67);  
+  color: rgb(132, 24, 24);  
 }
 nav{
     background: #1A0B2E;
@@ -68,12 +70,25 @@ nav{
     width: 350px;
     height: 350px;
     margin-bottom: 40px;
-    margin-left: 50px;
+    margin-left: 100px;
+    position: relative;
+}
+.badge{
+    position: absolute;
+    width: 75px;
+    height: 38px;
+    padding-top: 9px;
+    margin-top: 10px;
+    background: #00FF88;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
 }
 .micro img{
-    width: 200px;
-    height: 250px;
-    margin-top: 45px;
+    width: 140px;
+    height: 220px;
+    margin-top: 60px;
+    
 }
 .banner-section{
     max-width: 550px;
@@ -89,8 +104,8 @@ nav{
 }
 .banner-descrip{
     font-size: 1rem;
-    font-weight: 400;
-    margin-bottom: 12px;
+    font-weight: 200;
+    margin-bottom: 15px;
     color: #FFFFFF;
 }
 .btn{
@@ -98,17 +113,18 @@ nav{
     margin-left: 95px;
     gap: 8px;
 }.btn-1{
-    padding: 12px 20px 12px 40px;
-    border-radius: 14px;
+    padding: 12px 20px 12px 30px;
+    border-radius: 18px;
     border: none;
     background: rgb(158, 88, 50);
     color: #FFFFFF;
 }
 .btn-2{
-    padding: 12px 20px 12px 40px;
-    border-radius: 14px;
-    border: none;
-    color: #105e3a;
+    padding: 12px 20px 12px 25px;
+    border-radius: 18px;
+    border: .5px solid #00FF88;
+    color: #00FF88;
+    background: #2d134f;
 }
 .about{
     max-width: 1600px;
@@ -124,7 +140,7 @@ nav{
 .about-container p{
     color: #FFFFFF;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 200;
 }
 .about-container{
     width: 1200px;
@@ -152,7 +168,7 @@ nav{
 .container-rating p{
     color: #FFFFFF;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 200;
 }
 .choose{
     background: #1A0B2E;
@@ -185,7 +201,7 @@ nav{
 .choose-grid p{
     color: #FFFFFF;
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: 200;
 }
 .first{
     grid-row: span 2;
@@ -239,7 +255,7 @@ nav{
 .card-info p{
     margin-left: 15px;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 200;
     color: #FFFFFF;
 }
 .clock img{
@@ -280,7 +296,7 @@ nav{
 }
 .host-detail p{
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 200;
     color: #FFFFFF;
     margin-bottom: 16px;
 }
@@ -314,7 +330,7 @@ footer{
     gap: 20px;
     width: 544px;
     height: 24px;
-    margin-left: 480px;
+    margin-left: 460px;
     margin-top: 32px;
 }
 .f-icon1{
@@ -323,12 +339,13 @@ footer{
 }
 .copy{
     font-size: .75rem;
-    font-weight: 200;
+    font-weight: 300;
     margin-top: 18px;
     color: #FFFFFF;
 }
 .icon-title{
     color: #FFFFFF;
+    font-weight: 200;
 }
 .color{
     color: rgb(160, 55, 88);
@@ -342,5 +359,13 @@ footer{
     .nav-link{
         display: none;
         
+    }
+    .content {
+        margin-left: 5px;
+    }
+    .container-rating{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
     }
 }
