@@ -118,6 +118,11 @@ nav{
     border: none;
     background: rgb(158, 88, 50);
     color: #FFFFFF;
+    transition: transform;
+}
+.btn-1:hover{
+    background-color: red;
+    transform: rotate(25deg);
 }
 .btn-2{
     padding: 12px 20px 12px 25px;
@@ -125,6 +130,12 @@ nav{
     border: .5px solid #00FF88;
     color: #00FF88;
     background: #2d134f;
+    transition: transform .3s ease;
+}
+.btn-2:hover{
+    cursor: pointer;
+    background-color: slateblue;
+    transform: scale(1.1);
 }
 .about{
     max-width: 1600px;
